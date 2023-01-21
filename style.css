@@ -1,0 +1,220 @@
+
+body{
+    
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+.container{
+    display: grid;
+    width:100vw;
+    grid-template-columns: 45% 45%;
+}
+
+.entry-one{
+ margin-left: 30px;
+ margin-top: 30px;
+}
+
+.right{
+    margin-top:28px;
+}
+
+.entry-two{
+    margin-left: 30px;
+ margin-top: 30px;
+}
+
+.number{
+    height: 40px;
+    width:100px;
+    border-radius: 10px;
+    border: 0.01em solid lightslategray;
+}
+
+.checkbox1{
+    margin-top: 10px;
+    
+    width:30px;
+    height: 20px;
+}
+
+.radiobtn{
+    margin-top: 10px;
+    
+    width:30px;
+    height: 20px;
+}
+
+
+
+label{
+    font-weight: bold;
+}
+
+.inputfield{
+    width:500px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0.01em solid lightslategray;
+    
+}
+
+::placeholder {
+    font-size: 20px;
+    font-weight: lighter;
+    padding-left: 5px;
+    
+
+  }
+
+   ::selected{ 
+    font-size: 20px;
+    font-weight: lighter;
+    padding-left: 5px;
+   }
+
+   #info{
+    font-size: 20px !important;
+    display: inline-block; 
+    vertical-align:middle;
+    
+    color: grey;
+   }
+
+   #search{
+    
+    font-size: 20px !important;
+    display: inline-block;
+    
+    color: grey;
+   }
+  
+   textarea{
+    width:500px;
+    height: 200px;
+    resize:vertical;
+    border:0.01em solid lightslategray;
+   }
+
+
+.material-symbols-outlined{
+    font-size: 10px !important;
+    display: inline-block; 
+  vertical-align: top; 
+  margin-top: 3px;
+  color: red;
+ 
+}
+
+select{
+    width:500px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0.01em solid lightslategray;
+    
+}
+
+.checktext{
+    margin-right: 6px;
+    margin-bottom: 3px;
+}
+
+
+
+
+
+
+
+.field-with-button {
+    margin-left: 30px;
+    
+    border: 1px solid lightslategray;
+    border-width:0.01em;
+    border-radius: 10px;
+    border-right-style: none;
+    width:500px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin-bottom: 10px;
+  }
+
+  .field1>input{
+   
+    width:200px;
+    height: 30px;
+
+  }
+ 
+
+.label1{
+   font-size: 20px;
+    justify-content: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: lighter;
+}
+
+  .btn>input {
+    justify-content: flex-end; 
+    width:130px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border:0.01em solid black;
+    margin-left: 88px;
+   
+
+  }
+  
+  .no-fieldline{
+    border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  
+  }
+
+  .no-outline:focus {
+    outline: none;
+  }
+
+  .textfield-text{
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+
+  .searchbar{
+    width:500px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0.01em solid lightslategray;
+  }
+
+  .toggle {
+    position : relative ;
+    display : inline-block;
+    width : 100px;
+    height : 40px;
+    background-color: gray;
+    border-radius: 30px;
+    border: 2px solid gray;
+}
+       
+
+.toggle:after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    top: 1px;
+    left: 1px;
+    transition:  all 0.5s;
+}
